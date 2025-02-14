@@ -1,0 +1,108 @@
+<!-- Main Portfolio Page of Projects -->
+
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cindy Carlotta</title>
+        <link href = "css/workStyle.css" rel = 'stylesheet'>
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,600">
+        <!-- JavaScript File -->
+        <script src = "js/script.js"> </script>
+        <script src="files/splide-4.0.6/dist/js/splide.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Top Navigation Bar -->
+        <div class = "top-bar">
+            <a href = "index.html" target="_self" class = "nav-logo"> Cindy Carlotta </a>
+
+            <nav >
+                <ul class = "desktop-nav">
+                    <li> <a href = "about.html" target = "_self"> ABOUT </a></li>
+                    <li> <a href = "work.html"> WORK </a> </li>
+                    <li> <a href = "contact.html" target = "_self">CONTACT</a> </li>
+                </ul>
+            </nav>
+            <div class = "menu-burger-icon" onclick = "clickMenu()">
+                <div class="line1"> </div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+
+        <!--image slider start-->
+        <div class="slider">
+            <h2>Projects</h2>
+
+            <div class="slides">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                
+                <!--slide images start-->
+                <div class="slide first">
+                    <img src="images/urban_nights_main.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/swim.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/elsa5.JPG" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/trop_paradise_2.JPG" alt="">
+                </div>
+
+                <!--automatic navigation-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+
+
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+
+            <!-- Add the progress bar element -->
+            <div class="my-slider-progress">
+                <div class="my-slider-progress-bar"></div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class = "footer">
+            <h2>Cindy Carlotta</h2>
+            <div class = "quick-links">
+                <a href = "about.html"> ABOUT </a>
+                <a href = "work.html"> WORK </a>
+                <a href = "contact.html"> CONTACT</a>
+            </div>
+            <div class  = "social">
+                <p> Connect with Me </p>
+                <div class = "social-icons">
+                    <img src = "images/instagram.png">
+                    <img src = "images/facebook.png">
+                    <img src = "images/linkedin.png">
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>

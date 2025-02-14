@@ -1,0 +1,112 @@
+<!-- Home page -->
+
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cindy Carlotta</title>
+        <link href = "css/style.css" rel = 'stylesheet'>
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,600">
+        <!-- JavaScript File -->
+        <script src = "js/script.js"> </script>
+    </head>
+
+    <body>
+        <main>
+            <!-- Cover Image -->
+            <header>
+                <div class="coverpage-container">
+                    <div class = "coverimage">
+                        <img src = "images/elsa_cover.JPG">
+                    </div>
+                </div>
+            </header>
+
+            <section class = "animateCover">
+                <h1> Cindy Carlotta</h1>
+            </section>
+                
+        </main>
+
+        <!-- Top Navigation Bar -->
+        <div class = "top-bar">
+            <a href = "index.html" target="_self" class = "nav-logo"> Cindy Carlotta </a>
+
+            <nav >
+                <ul class = "desktop-nav">
+                    <li> <a href = "about.html" target = "_self"> ABOUT </a></li>
+                    <li> <a href = "work.html"> WORK </a> </li>
+                    <li> <a href = "contact.html" target = "_self">CONTACT</a> </li>
+                </ul>
+            </nav>
+            <div class = "menu-burger-icon" onclick = "clickMenu()">
+                <div class="line1"> </div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+
+        <div class = "post-container">
+            <article class = "post">
+                <h3> Urban Nights </h3>
+                <a> View Project &#10132 </a>
+
+                <div class = "gallery-row"> 
+                    <div class = "gallery-col">
+                        <img onmouseover = "enlargeImg(this)" onmouseout = "normalImg(this)" src = "images/urban_nights_main.jpg">
+                    </div>
+                    <div class = "gallery-col" id = "col-2">
+                        <img src = "images/urban_nights_plant.jpg">
+                    </div>
+                    <div class = "gallery-col" id = "col-3">
+                        <img src = "images/urban_nights_unedited.jpg">
+                    </div>
+                </div>
+            </article>
+        
+            <article class = "post">
+                <h3> Tropical Paradise </h3>
+                <a> View Project &#10132 </a>
+
+                <div class = "gallery-row">
+                    <div class = "gallery-col">
+                        <img src = "images/trop_paradise_portrait.JPG">
+                        <img src = "images/tropical_paradise_2.JPG">
+                    </div>
+                    <div class = "gallery-col">
+                        <img src = "images/trop_paradise_2.JPG">
+                        <img src = "images/tropical_paradise.JPG">
+                    </div>
+                    <div class = "gallery-col">
+                        <img src = "images/trop_paradise_3.JPG">
+                        <img src = "images/trop_paradise_4.JPG">
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class = "footer">
+            <h2>Cindy Carlotta</h2>
+            <div class = "quick-links">
+                <a href = "about.html"> ABOUT </a>
+                <a href = "work.html"> WORK </a>
+                <a href = "contact.html"> CONTACT</a>
+            </div>
+            <div class  = "social">
+                <p> Connect with Me </p>
+                <div class = "social-icons">
+                    <img src = "images/instagram.png">
+                    <img src = "images/facebook.png">
+                    <img src = "images/linkedin.png">
+                </div>
+            </div>
+        </div>
+
+    </body>
+    
+</html>
