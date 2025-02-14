@@ -2,6 +2,7 @@
 Photography Portfolio | UQ
 
 Project: Following a design process to create a website implementation
+
 Stack: HTML, CSS, and JavaScript
 
 ## Low Fidelity and High Fidelity Designs
